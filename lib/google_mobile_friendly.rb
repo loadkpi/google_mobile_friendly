@@ -1,6 +1,7 @@
 require 'google_mobile_friendly/request'
-require 'google_mobile_friendly/response'
+require 'google_mobile_friendly/test_page'
 require 'google_mobile_friendly/response_data/mobile_friendly_issue'
+require 'google_mobile_friendly/response_data/resource_issue'
 require 'google_mobile_friendly/response_data/run_mobile_friendly_test_response'
 require 'google_mobile_friendly/response_data/test_status'
 require 'google_mobile_friendly/version'

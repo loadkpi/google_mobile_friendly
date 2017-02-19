@@ -17,7 +17,7 @@ module GoogleMobileFriendly
       uri.query = URI.encode_www_form(params)
       http_result = Net::HTTP.post_form(uri, 'url' => @url)
       response = JSON.parse(http_result.body, symbolize_names: true)
-      GoogleMobileFriendly::Response.new response
+      GoogleMobileFriendly::TestPage.new response
     end
   end
 end
