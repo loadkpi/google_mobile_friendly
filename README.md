@@ -1,8 +1,14 @@
 # GoogleMobileFriendly
 
+[![Build Status](https://travis-ci.org/loadkpi/google_mobile_friendly.svg?branch=master)](https://travis-ci.org/loadkpi/google_mobile_friendly) [![Code Climate](https://codeclimate.com/github/loadkpi/google_mobile_friendly/badges/gpa.svg)](https://codeclimate.com/github/loadkpi/google_mobile_friendly)
+
 Ruby Wrapper for Mobile-Friendly Test from Google Search Console URL Testing Tools API
 
 See Google documentation for more information - https://developers.google.com/webmaster-tools/search-console-api/reference/rest/    
+
+## Requirements
+
+* Ruby >= 2.0.0
 
 ## Installation
 
